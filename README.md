@@ -6,5 +6,7 @@ The webapp does the following
 2.The front-end will have the input of your residential coordinates (latitude and longitude), and x km (the range in which you would like to invite the friends), and upon clicking the submit button, it lists down the friends user_id and name within the x km selected in ascending order of user_id
 
 The /home/ contains the frontend of website
+
 /admin/ contains the admin rights
+
 /entries/ contains all friends in the server
