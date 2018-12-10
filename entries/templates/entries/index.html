@@ -1,0 +1,9 @@
+{% if all_entries %}
+    <ol>
+        {% for entry in all_entries %}
+        <li><a href="/entries/{{ entry.user_id }}/">{{ entry.name}}</a> </li>
+        {% endfor %}
+    </ol>
+{% else  %}
+    <h2>You poor soul,go make some friends!!</h2>
+{% endif %}

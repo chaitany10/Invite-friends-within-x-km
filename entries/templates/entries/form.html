@@ -1,0 +1,12 @@
+<form method="POST" action="/calculate/">
+{% csrf_token %}
+    <h3>Enter Party Coordinates:</h3>
+    Latitude:<br>
+    <input type="text" name="Latitude"><br>
+    Longitude:<br>
+    <input type="text" name="Longitude"><br>
+    Distance:<br>
+    <input type="text" name="km"><br>
+
+<button type="submit">Submit</button>
+</form>

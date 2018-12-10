@@ -1,0 +1,9 @@
+{% if sel_entries %}
+    <ol>
+        {% for entry in sel_entries %}
+        <li>{{ entry }}</li>
+        {% endfor %}
+    </ol>
+{% else  %}
+    <h2>You poor soul,go make some friends!!</h2>
+{% endif %}
